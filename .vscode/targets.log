@@ -1,0 +1,302 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'all'.  Stop.
+
+# GNU Make 4.2.1
+# Built for x86_64-redhat-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Sun Sep 11 22:30:17 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# default
+.SHELLFLAGS := -c
+# environment
+VSCODE_AGENT_FOLDER = /home/jx30/.vscode-server
+# environment
+MODULEPATH = /usr/share/modulefiles:/usr/share/Modules/modulefiles:/usr/share/modulefiles/Linux:/usr/share/modulefiles/Core:/usr/share/lmod/lmod/modulefiles/Core:/etc/modulefiles/env:/etc/modulefiles/class:/etc/modulefiles/ews_software
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+define BASH_FUNC_ml%%
+() {  eval "$($LMOD_DIR/ml_cmd "$@")"
+}
+endef
+# default
+MAKE_VERSION := 4.2.1
+# makefile
+CURDIR := /home/jx30/ece220
+# makefile
+SHELL = /bin/sh
+# environment
+LMODARCH = x86_64
+# environment
+LMOD_DIR = /usr/share/lmod/lmod/libexec
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en","availableLanguages":{}}
+# environment
+_ = /usr/bin/make
+# makefile
+MAKEFILE_LIST := 
+# automatic
+@F = $(notdir $@)
+# environment
+HISTCONTROL = ignoredups
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+XDG_DATA_DIRS = /home/jx30/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1141716/bus
+# environment
+LESSOPEN = ||/usr/bin/lesspipe.sh %s
+# environment
+VSCODE_CWD = /home/jx30
+# environment
+KRB5CCNAME = KCM:
+# environment
+SSH_CONNECTION = 153.33.147.24 56244 192.17.9.168 22
+# environment
+PATH = /home/jx30/.vscode-server/bin/e4503b30fc78200f846c62cf8091b76ff5547662/bin/remote-cli:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin
+# environment
+LMOD_CMD = /usr/share/lmod/lmod/libexec/lmod
+# environment
+XDG_RUNTIME_DIR = /run/user/1141716
+# environment
+BASH_ENV = /usr/share/lmod/lmod/init/bash
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+VSCODE_IPC_HOOK_CLI = /run/user/1141716/vscode-ipc-5f398413-13f1-4d73-a626-206b575149d6.sock
+# environment
+LMOD_VERSION = 8.7.7
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+SOFTPATH = /software
+# automatic
+%F = $(notdir $%)
+# environment
+PWD = /home/jx30/ece220
+# default
+.LOADED := 
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+MANPATH = /usr/share/lmod/lmod/share/man:
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/jx30
+# environment
+MODULESHOME = /usr/share/lmod/lmod
+# environment
+LOGNAME = jx30
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# automatic
++F = $(notdir $+)
+# environment
+SELINUX_LEVEL_REQUESTED = 
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+LMOD_sys = Linux
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+HOSTNAME = linux-ssh-07.ews.illinois.edu
+# environment
+LMOD_arch = x86_64
+# environment
+MAKELEVEL := 0
+# environment
+SSH_ASKPASS = /usr/libexec/openssh/gnome-ssh-askpass
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 5
+# environment
+XDG_SESSION_ID = 1451
+# environment
+USER = jx30
+# makefile
+.DEFAULT_GOAL := 
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+MODULEPATH_ROOT = /usr/share/modulefiles
+# default
+MAKE_COMMAND := make
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+define BASH_FUNC_module%%
+() {  if [ -z "${LMOD_SH_DBG_ON+x}" ]; then
+ case "$-" in 
+ *v*x*)
+ __lmod_sh_dbg='vx'
+ ;;
+ *v*)
+ __lmod_sh_dbg='v'
+ ;;
+ *x*)
+ __lmod_sh_dbg='x'
+ ;;
+ esac;
+ fi;
+ if [ -n "${__lmod_sh_dbg:-}" ]; then
+ set +$__lmod_sh_dbg;
+ echo "Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for Lmod's output" 1>&2;
+ fi;
+ eval "$($LMOD_CMD $LMOD_SHELL_PRGM "$@")" && eval "$(${LMOD_SETTARG_CMD:-:} -s sh)";
+ __lmod_my_status=$?;
+ if [ -n "${__lmod_sh_dbg:-}" ]; then
+ echo "Shell debugging restarted" 1>&2;
+ set -$__lmod_sh_dbg;
+ fi;
+ unset __lmod_sh_dbg;
+ return $__lmod_my_status
+}
+endef
+# environment
+LMOD_SHELL_PRGM = bash
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# environment
+SSH_CLIENT = 153.33.147.24 56244 22
+# environment
+MAIL = /var/spool/mail/jx30
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+DISTARCH = Linux-x86_64
+# environment
+BROWSER = /home/jx30/.vscode-server/bin/e4503b30fc78200f846c62cf8091b76ff5547662/bin/helpers/browser.sh
+# environment
+define BASH_FUNC_which%%
+() {  ( alias;
+ eval ${which_declare} ) | /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot $@
+}
+endef
+# environment
+LMOD_PKG = /usr/share/lmod/lmod
+# environment
+VSCODE_HANDLES_SIGPIPE = true
+# default
+MAKEFILES := 
+# environment
+SELINUX_USE_CURRENT_RANGE = 
+# automatic
+<F = $(notdir $<)
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
+# environment
+SELINUX_ROLE_REQUESTED = 
+# default
+SUFFIXES := 
+# environment
+HISTSIZE = 1000
+# environment
+LMOD_ROOT = /usr/share/lmod
+# environment
+LMOD_SETTARG_FULL_SUPPORT = no
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# default
+.RECIPEPREFIX := 
+# default
+MAKE_HOST := x86_64-redhat-linux-gnu
+# environment
+LANG = C
+# environment
+which_declare = declare -f
+# environment
+COBBLER_SERVER = cobbler-03.engrit.illinois.edu
+# variable set hash-table stats:
+# Load=92/1024=9%, Rehash=0, Collisions=12/114=11%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 57, inode 89959170): 11 files, no impossibilities.
+
+# 11 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+GNUmakefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# files hash-table stats:
+# Load=6/1024=1%, Rehash=0, Collisions=0/15=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 19 / storage = 130 B / avg = 6 B
+# current buf: size = 8162 B / used = 130 B / count = 19 / avg = 6 B
+
+# strcache performance: lookups = 22 / hit rate = 13%
+# hash-table stats:
+# Load=19/8192=0%, Rehash=0, Collisions=1/22=5%
+# Finished Make data base on Sun Sep 11 22:30:17 2022
+
+ 
